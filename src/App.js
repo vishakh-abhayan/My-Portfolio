@@ -1,5 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
-  return <div className="text-4xl font-bold font-signature">hello world</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;

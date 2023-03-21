@@ -21,7 +21,7 @@ function Hero() {
             <button className="group cursor-pointer text-white w-fit py-3 px-6 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 ">
               Projects
               <span className="group-hover:rotate-90 duration-200">
-                <Angele className="ml-4" size={25} />
+                <Angele className="ml-4" size={20} />
               </span>
             </button>
           </div>

@@ -9,11 +9,11 @@ function Hero() {
       className=" w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div className="md:flex-row h-full px-4 max-w-screen-lg mx-auto flex flex-col items-center justify-center">
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full mt-20">
           <h2 className="text-4xl sm:text-6xl font-bold text-white">
             I,m a MERN Stack Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 max-w-md selection:bg-transparent selection:text-gray-500">
             who loves to solve problems digitally with top notch technologies. I
             am specialised in web technologies.
           </p>
@@ -26,9 +26,9 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div>
+        <div className="mb-24 sm:mb-2">
           <img
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full "
             src={HeroImage}
             alt="profile"
           />

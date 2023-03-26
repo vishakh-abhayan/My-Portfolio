@@ -52,7 +52,7 @@ function Navbar() {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="py-6 px-4 cursor-pointer capitalize text-4xl"
+              className="py-6 px-4 cursor-pointer capitalize text-4xl "
             >
               {link}
             </li>

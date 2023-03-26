@@ -9,3 +9,8 @@
     font-family: "Raleway", sans-serif;
   }
 }
+.hello {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/2876f976244561.5c90a7fe65c12.gif);
+  background-repeat: repeat-x;
+  background-position-x: -480px, center;
+}

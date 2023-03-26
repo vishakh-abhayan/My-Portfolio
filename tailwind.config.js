@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         signature: ["Great Vibes"],
       },
+      backgroundColor: {
+        hash: "#233b4f",
+      },
     },
   },
   plugins: [],
